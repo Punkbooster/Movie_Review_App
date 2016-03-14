@@ -9,4 +9,12 @@
 		%link{href: "https://fonts.googleapis.com/css?family=Open+Sans:300,700", :rel => "stylesheet", :type => "text/css"}/
 		%link{href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", :rel => "stylesheet"}
 	%body
+		%header#top_header.clearfix
+			.wrapper
+				%h1.logo Movies<span>&amp</span>Stuff
+				%nav#main_nav
+					=link_to "Movies"
+					=link_to "TV Shows"
+					=link_to "Celebs &amp Photos"
+					=link_to "News"
 		= yield
