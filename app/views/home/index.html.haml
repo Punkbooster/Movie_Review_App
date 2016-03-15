@@ -92,5 +92,16 @@
 	
 
 %section#newsletter
+	%div.newsletter_inner
+		%h2 Get the best Movie &amp; TV Show trailers straight in your inbox each week.
+		%div.sign_up_form
+			%input{:placeholder => "First Name", :type => "text"}/	
+			%input{:placeholder => "Email Address", :type => "email"}/	
+			%button.button Subscribe
 
 %footer#main_footer
+	%p.logo Movies<span>&amp</span>Stuff
+	%p.copyright &copy;2016 Movies &amp; Stuff. All Rights Reserved.
+	%div.links
+		=link_to "Terms of Service"
+		=link_to "Privacy Policy"
