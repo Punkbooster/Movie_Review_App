@@ -8,10 +8,13 @@
 		%link{href: "https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css", :rel => "stylesheet", :type => "text/css"}/
 		%link{href: "https://fonts.googleapis.com/css?family=Open+Sans:300,700", :rel => "stylesheet", :type => "text/css"}/
 		%link{href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", :rel => "stylesheet"}
+		%meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
 	%body
 		%header#top_header.clearfix
 			.wrapper
 				%h1.logo Movies<span>&amp</span>Stuff
+				%a.menu{:href => "#"}
+					%i.fa.fa-bars
 				%nav#main_nav
 					=link_to "Movies"
 					=link_to "TV Shows"
