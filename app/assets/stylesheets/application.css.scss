@@ -149,3 +149,51 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 }
+
+//- - - - - - - - - - - - - - -  Movies Styles - - - - - - - - - - - - - - -
+
+#top_movies, #top_shows {
+	padding: 5em 0;
+	header {
+		padding: 0 0 1.5em 0;
+		h2, .view_more {
+			display: inline;
+		}
+		h2 {
+			font-size: 1.75em;
+		}
+		.view_more {
+			float: right;
+			font-size: .8em;
+			margin: .75em 3.5% 0;
+		}
+	}
+}
+
+#top_movies {
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.row {
+	width: 100%;
+	.post {
+		width: 14%;
+		float: left;
+		margin-right: 2.5%;
+		img {
+			width: 100%;
+			max-width: 100%;
+			border-radius: .5em;
+		}
+		.title {
+			font-size: 1.25em;
+			margin: 1em 0 0 0;
+			color: $main;
+		}
+		.post_info {
+			font-size: .75em;
+			color: $secondary;
+			margin: 0.5em 0;
+		}
+	}
+}
