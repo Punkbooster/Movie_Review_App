@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-//- - - - - - - - - - - - - - -  Media Queries - - - - - - - - - - - - - - -
+//- - - - - - - - - - - - - - -  Media Queries for below 768px - - - - - - - - - - - - - - -
 
 @media only screen and (max-width: 768px) {
 	#main_nav {
@@ -363,5 +363,24 @@ h1, h2, h3, h4, h5, h6 {
 			}
 		}
 	}
+}
 
+//- - - - - - - - - - - Media Queries for below 575px - - - - - - - - - - - -
+
+@media only screen and (max-width: 575px) {
+	#banner {
+		#banner_content_wrapper {
+			display: block;
+			#poster {
+				width: 250px;
+				float: none;
+				display: block;
+				margin: 0 auto;
+			}
+			#content {
+				width: 100%;
+				margin: 1em auto 0 auto;
+			}
+		}
+	}
 }
