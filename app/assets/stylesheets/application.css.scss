@@ -383,4 +383,16 @@ h1, h2, h3, h4, h5, h6 {
 			}
 		}
 	}
+	#top_movies, #top_shows {
+		header {
+			margin-bottom: 2em;
+		}
+	}
+	.row {
+		.post {
+			width: 250px;
+			margin: 0 auto 2em auto;
+			float: none;
+		}
+	}
 }
